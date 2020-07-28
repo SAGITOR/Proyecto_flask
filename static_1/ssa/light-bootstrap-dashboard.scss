@@ -1,0 +1,39 @@
+/*!
+
+ =========================================================
+ * Light Bootstrap Dashboard - v1.4.0
+ =========================================================
+
+ * Product Page: http://www.creative-tim.com/product/light-bootstrap-dashboard
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+//COMO SE IMPORTA LOS ARCHIVOS SCSS A CSS EN FLASK?
+@import "{{ url_for('static', filename='lbd/variables' ) }}";
+@import "{{ url_for('static', filename='lbd/mixins' ) }}";
+
+@import "{{ url_for('static', filename='lbd/typography' ) }}";
+
+// Core CSS
+@import "{{ url_for('static', filename='lbd/misc' ) }}";
+@import url("{{ url_for('static', filename='lbd/sidebar-and-main-panel' ) }}");
+@import "{{ url_for('static', filename='lbd/buttons' ) }}";
+@import "{{ url_for('static', filename='lbd/inputs' ) }}";
+
+@import "{{ url_for('static', filename='lbd/alerts' ) }}";
+@import "{{ url_for('static', filename='lbd/tables' ) }}";
+
+@import "{{ url_for('static', filename='lbd/checkbox-radio-switch' ) }}";
+@import "{{ url_for('static', filename='lbd/navbars' ) }}";
+@import "{{ url_for('static', filename='lbd/footers' ) }}";
+
+// Fancy Stuff
+@import "{{ url_for('static', filename='lbd/dropdown' ) }}";
+@import "{{ url_for('static', filename='lbd/cards' ) }}";
+@import "{{ url_for('static', filename='lbd/chartist' ) }}";
+@import "{{ url_for('static', filename='lbd/responsive' ) }}";

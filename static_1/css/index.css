@@ -1,0 +1,24 @@
+#home
+{
+  text-align: center;
+}
+#div_1
+{
+  font-family: Time New Roma;
+  background-color:  #666666;
+  border: outset #333333;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-radius: 30px 30px 30px 30px ;
+  color: #C0C0C0;
+}
+#div_2
+{
+  font-family: Time New Roma;
+  background-color:  #666666;
+  border: solid #CCCCCC;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-radius: 30px 30px 30px 30px ;
+  color: #333333;
+}
